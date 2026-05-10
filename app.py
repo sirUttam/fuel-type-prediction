@@ -3,9 +3,9 @@ import joblib
 import numpy as np
 
 # Load saved objects
-model = joblib.load("models\Fuel_Prediction_Model_Final.pkl")
-scaler = joblib.load("models\scaler.pkl")
-le = joblib.load("models\label_encoder.pkl")
+model = joblib.load("models/Fuel_Prediction_Model_Final.pkl")
+scaler = joblib.load("models/scaler.pkl")
+le = joblib.load("models/label_encoder.pkl")
 
 # ---------------- UI ---------------- #
 st.set_page_config(page_title="Fuel Type Predictor", page_icon="⛽", layout="centered")
